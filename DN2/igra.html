@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="slike/card.png">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Igra: Spomin</title>
+</head>
+
+
+
+<div id="navbar">
+    <a href="index.html">Igra: Spomin</a>
+    <div id="navbar-right">
+        <a class="active" href="igra.html">Igra</a>
+        <a href="navodila.html">Navodila</a>
+    </div>
+</div>
+
+
+
+<body id="igra_body">
+
+
+    <br>
+    <div style="display: inline-block;">PREOSTALI ČAS:</div>
+    <div id="count" style="display: inline-block;">60</div>
+    <div style="display: inline-block;">sekund</div>
+    <br>
+    <table id="tabla">
+        <script src=script.js></script>
+    </table>
+    <hr>
+    <div style="display: inline-block;">TOČKE:</div>
+    <div id="point" style="display: inline-block;">0</div>
+    <button class="gumb" onclick="zacniZnova()">Začni znova!</button>
+    <hr>
+    <button class="gumb" onclick="zakljucek()">Končaj igro.</button>
+    <button class="gumb" onclick="setupPolja()">Nastavi igro!</button>
+</body>
